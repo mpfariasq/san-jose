@@ -1,0 +1,19 @@
+{
+  "name": "san-jose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpfariasq/san-jose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpfariasq/san-jose/issues"
+  },
+  "homepage": "https://github.com/mpfariasq/san-jose#readme",
+  "description": ""
+}

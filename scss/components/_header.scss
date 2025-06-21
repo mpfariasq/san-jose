@@ -1,0 +1,69 @@
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $rojo;
+    padding: 1rem 2rem;
+  
+    .logo {
+      height: 80px;
+    }
+  
+    .campus {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+  
+          }
+  }
+  
+  header {
+    background-color: $rojo;
+    width: 100%;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+  
+        li a {
+          text-decoration: none;
+          font-size: 80%;
+          color: #eef0f0;
+          background-color: $rojo;
+  
+          &:hover {
+            color: #f0f0ee !important;
+          }
+        }
+      }
+    }
+  }
+  
+  .navbar {
+    background-color: $rojo !important;
+    z-index: 1001;
+  }
+  
+  // === DROPDOWN ===
+  .dropdown-menu {
+    background-color: $rojo !important;
+  
+    .dropdown-item {
+      color: white !important;
+      z-index: 100;
+  
+      &:hover {
+        background-color: $rojo-hover !important;
+        color: white !important;
+      }
+    }
+  }
