@@ -1,3 +1,18 @@
+@mixin boton($color, $borde) {
+  background-color: $color;
+  border: $borde;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken($color, 10%);
+  }
+}
+
 .encabezado {
     display: flex;
     justify-content: space-between;
