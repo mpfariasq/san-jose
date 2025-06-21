@@ -9,4 +9,19 @@ $fuente: 'Rubik', sans-serif;
 $sombra: 0 4px 12px rgba(0, 0, 0, 0.1);
 $sombra-img: 0 4px 12px rgba(0, 0, 0, 0.2);
 
+@mixin boton($color, $borde) {
+    background-color: $color;
+    border: $borde;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: darken($color, 10%);
+    }
+  }
 
+  

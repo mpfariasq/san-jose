@@ -11,12 +11,16 @@
   
     .campus {
       color: white;
+      @include boton(hsl(76, 51%, 51%), none); // amarillo
       text-decoration: none;
       font-size: 1.2rem;
       display: flex;
       align-items: center;
       gap: 0.5rem;
   
+          }
+          i {
+            margin-right: 5px;
           }
   }
   
