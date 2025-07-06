@@ -122,3 +122,46 @@
     }
   }
 }
+@media screen and (max-width: 700px) {
+  .hero {
+    flex-direction: column !important; // 🔧 esto apila
+    align-items: center;
+    gap: 1rem;
+  
+    article {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    #carouselExampleIndicators {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  
+    .carousel-inner img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+  }
+  // Galería del nivel inicial
+  .galeria {
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
