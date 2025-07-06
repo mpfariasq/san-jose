@@ -72,3 +72,18 @@ h2 {
   }
 }
 
+.icono {
+  i {
+    font-size: 3rem;
+    color: #dc3545; // equivalente a text-danger
+  }
+}
+
+.linea-roja {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-top: 2px solid #dc3545; // mismo color que text-danger
+  opacity: 1;
+}

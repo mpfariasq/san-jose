@@ -19,7 +19,8 @@
     align-items: center;
     background-color: $rojo;
     padding: 1rem 2rem;
-  
+    flex-wrap: wrap; // Agregado para permitir que bajen los elementos si es necesario
+    gap: 1rem; // Espacio entre elementos
     .logo {
       height: 80px;
     }

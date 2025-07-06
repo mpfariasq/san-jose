@@ -1,27 +1,124 @@
 @media screen and (max-width: 600px) {
-    .footer img {
-      height: 30px;
-    }
+  .footer img {
+    height: 30px;
   }
-  
-  @media screen and (max-width: 572px) {
-    .campus {
-      font-size: 0.5rem;
-    }
-  }
-  
-  /*@media screen and (max-width: 560px) {
+}
+
+/*@media screen and (max-width: 560px) {
     .catedral {
       width: 400px;
       height: 100px;
     }*/
-    @media screen and (max-width: 576px) {
-      .banner-catedral {
-        height: 80px;
+@media screen and (max-width: 576px) {
+  .banner-catedral {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner img {
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media screen  and (max-width: 768px) {
+  .encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3rem 0.5rem; // menos padding
+    gap: 0.3rem; 
+    text-align: center;
+  }
+
+  .logo {
+    height:50px;
+    margin-bottom: 0.3rem;
+  }
+
+  
+  .campus {
+    font-size: 0.65rem !important;
+    padding: 0.2rem 0.5rem !important;
+    line-height: 1 !important;
+    margin-top: 0.2rem;
+    align-self: flex-end;
+  }
+
+  nav.navbar {
+    width: 100%;
+    justify-content: center; // centra el botón hamburguesa
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    font-size: 1rem; // ver
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  form.d-flex {
+    justify-content: center;
+  }
+  .navbar-toggler {
+    margin: 0 auto;          // centra el botón en su contenedor
+    display: block;
+  }
+}
+
+// Ajustes responsivos para tarjetas de niveles
+@media screen and (max-width: 750px) {
+  .niveles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+  }
+
+  .cajanivel {
+    max-width: 90%;          
+    margin: 1rem auto; 
+      }
+
+  .cajanivel p {
+    font-size: clamp(16px, 4vw, 18px);
+  }
+}
+
+@media  screen and (max-width: 576px) {
+  .cajanivel p {
+    font-size: 16px;
+  }
+}
+
+@media screen  and (max-width: 790px) {
+  .navbar-collapse {
+    text-align: center;
+    font-size: 1rem; // ver
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  form.d-flex {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-collapse {
+    .navbar-nav {
+      .nav-link {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.6rem;
       }
     }
-
-
-
-      
-  
+  }
+}
